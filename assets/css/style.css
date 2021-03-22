@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.mainContainer {
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.mainContainer h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.mainContainer p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+.btn {
+    padding: 15px 32px;
+    margin-left: 250px;
+    margin-top: 150px;
+    border: 4px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
